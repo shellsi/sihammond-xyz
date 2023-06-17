@@ -2,3 +2,12 @@ img {
     max-width: 400px;
     height: auto;
 }
+
+/* Add custom CSS for responsiveness */
+@media only screen and (max-width: 600px) {
+    /* Styles for screens up to 600px wide */
+    img {
+        max-width: 100%; /* Make the image responsive by occupying the full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
