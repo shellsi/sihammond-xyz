@@ -1,6 +1,26 @@
+/* Set a default background and text color */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif; /* You can choose your own font */
+    line-height: 1.6;
+}
+
+/* Other common resets */
 img {
-    max-width: 400px;
+    max-width: 100%;
     height: auto;
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove border and outline in buttons and inputs */
+button, input, textarea {
+    border: none;
+    outline: none;
 }
 
 /* Add custom CSS for responsiveness */
